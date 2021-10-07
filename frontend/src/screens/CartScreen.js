@@ -46,7 +46,7 @@ const CartScreen = () => {
                 </div>
                 {cartItems.length === 0 ? (
                     <div>
-                        La bolsa está vacía <Link to="/">Regresar</Link>
+                        La bolsa está vacía <Link to="/" className="cartscreen-link">Regresar</Link>
                     </div>
                 ) : (
                     cartItems.map((item) => (
@@ -65,8 +65,8 @@ const CartScreen = () => {
                     <p>${getCartSubTotal()}</p>
                 </div>
                 <div>
-                    <Link to="/checkout">
-                        <button disabled={true}>Realizar compra</button>
+                    <Link to="/login">
+                        <button disabled={false}>Realizar compra</button>
                     </Link>
                 </div>
             </div>

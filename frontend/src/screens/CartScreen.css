@@ -26,7 +26,7 @@
 
 .cartscreen-right {
   flex: 0.3;
-  background: #fff;
+  background: white;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
   height: fit-content;
 }
@@ -52,7 +52,7 @@
   padding: 10px 17px;
   width: 100%;
   background: royalblue;
-  color: #f4f4f4;
+  color: white;
   border: none;
   border-radius: 3px;
   cursor: pointer;
@@ -60,6 +60,10 @@
 
 .cartscreen-right div button:hover {
   opacity: 0.9;
+}
+
+.cartscreen-link {
+  color: royalblue;
 }
 
 @media (max-width: 1320px) {
