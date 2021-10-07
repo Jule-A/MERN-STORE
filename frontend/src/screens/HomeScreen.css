@@ -26,7 +26,7 @@
     padding: 0.5rem;
     color: rgb(90, 90, 90);
     background-color: #eee;
-    outline-width: 0;
+    outline: none;
     font-size: 1.3rem;
     font-family: inherit;
     margin-bottom: 1.5rem;
