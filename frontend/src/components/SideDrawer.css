@@ -1,0 +1,82 @@
+.sidedrawer {
+  width: 60%;
+  height: 100vh;
+  background: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+  transform: translateX(-100%);
+  transition: all 0.3s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidedrawer.show {
+  transform: translateX(0);
+}
+
+.sidedrawer-links {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+  
+.sidedrawer-links > li {
+  display: flex;
+  align-items: center;
+}
+  
+.sidedrawer-links > li > a:hover {
+  background: rgba(255, 0, 0, 0.5);
+  color: white;
+}
+  
+.sidedrawer-links > li > a {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: center;
+  flex: 1;
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.4rem;
+}
+  
+.sidedrawer-links > li > a > span {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+  
+.sidedrawer-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  margin-left: 8px;
+  color: white;
+  font-size: 1rem;
+}
+  
+.sidedrawer-links > li > a:hover .sidedrawer-badge {
+  background-color: white;
+  color: black;
+}
+  
+@media (min-width: 960px) {
+  .sidedrawer {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .sidedrawer-links > li > a {
+    font-size: 1.3rem;
+  }
+}

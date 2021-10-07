@@ -1,0 +1,42 @@
+.registerscreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+  
+.registerscreen-form {
+    width: 380px;
+    height: fit-content;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background: white;
+}
+
+.registerscreen-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.registerscreen-icon > i{
+    font-size: 80px;
+    color: royalblue;
+    padding-bottom: 1.5rem;
+}
+  
+.registerscreen-title {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.registerscreen-link {
+    font-size: 0.7rem;
+    color: royalblue;
+  }
+ 
+.registerscreen-subtext {
+    font-size: 0.7rem;
+    display: block;
+    margin: 0.5rem 0;
+}

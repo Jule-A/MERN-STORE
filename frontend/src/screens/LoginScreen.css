@@ -1,0 +1,42 @@
+.loginscreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+  }
+  
+  .loginscreen-form {
+    width: 380px;
+    height: fit-content;
+    padding: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    background: white;
+  }
+
+  .loginscreen-icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .loginscreen-icon > i{
+    font-size: 80px;
+    color: royalblue;
+    padding-bottom: 1.5rem;
+  }
+  
+  .loginscreen-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .loginscreen-link {
+    font-size: 0.7rem;
+    color: royalblue;
+  }
+  
+  .loginscreen-subtext {
+    font-size: 0.7rem;
+    display: block;
+    margin: 0.5rem 0;
+  }
